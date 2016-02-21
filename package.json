@@ -1,0 +1,14 @@
+{
+  "name": "ntalk",
+  "description" : "aplicativo de chat",
+  "version": "0.0.0",
+  "private": false,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ejs": "~2.3.3",
+    "express": "~4.13.1",
+    "express-load" : "1.1.8"
+  }
+}
