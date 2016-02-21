@@ -9,6 +9,12 @@
   "dependencies": {
     "ejs": "~2.3.3",
     "express": "~4.13.1",
-    "express-load" : "1.1.8"
+    "express-load" : "1.1.8",
+    "express-session" : "*",
+    "body-parser": "~1.4.3",
+    "cookie-parser" : "*",
+    "morgan" : "*",
+    "method-override" : "*",
+    "csurf": "~1.3.0"
   }
 }
