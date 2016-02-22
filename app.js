@@ -37,6 +37,7 @@ load('models').then('controllers')
 app.use(error.notFound);
 app.use(error.serverError);
 
-app.listen(3000, function() {
-    console.log("Nalk no ar.");
+app.listen(process.env.PORT || 8080, function() {
+	var port = server.address().port;
+    console.log("Nalk no ar.", port);
 });
